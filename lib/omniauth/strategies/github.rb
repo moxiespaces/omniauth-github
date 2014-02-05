@@ -9,6 +9,8 @@ module OmniAuth
         :token_url => 'https://github.com/login/oauth/access_token'
       }
 
+      option :provider_ignores_state, true
+
       def request_phase
         super
       end
