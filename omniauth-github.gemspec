@@ -6,12 +6,12 @@ Gem::Specification.new do |gem|
   gem.email         = ["michael@intridea.com"]
   gem.description   = %q{Official OmniAuth strategy for GitHub.}
   gem.summary       = %q{Official OmniAuth strategy for GitHub.}
-  gem.homepage      = "https://github.com/intridea/omniauth-github"
+  gem.homepage      = "https://github.com/moxiespaces/omniauth-github"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  gem.name          = "omniauth-github"
+  gem.name          = "moxie-omniauth-github"
   gem.require_paths = ["lib"]
   gem.version       = OmniAuth::GitHub::VERSION
 
